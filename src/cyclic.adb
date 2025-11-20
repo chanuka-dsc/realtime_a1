@@ -4,9 +4,9 @@ use Ada.Calendar;
 use Ada.Text_IO;
 
 procedure cyclic is
-    Message: constant String := "Cyclic scheduler";
+   Message: constant String := "Cyclic scheduler";
         -- change/add your declarations here
-        d: Duration := 1.0;
+   d: Duration := 1.0;
 	Start_Time: Time := Clock;
 	s: Integer := 0;
         
@@ -38,7 +38,7 @@ procedure cyclic is
                 f1;
                 f2;
                 f3;
-                delay d;
+                delay until d;
         end loop;
 end cyclic;
 
