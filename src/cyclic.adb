@@ -1,9 +1,6 @@
-with Ada.Calendar;
-with Ada.Text_IO;
-use Ada.Calendar;
-use Ada.Text_IO;
---  with Ada.Real_Time;
---  use Ada.Real_Time;
+with Ada.Calendar; use Ada.Calendar;
+with Ada.Text_IO; use Ada.Text_IO;
+
 
 procedure cyclic is
    Message    : constant String := "Cyclic scheduler";
