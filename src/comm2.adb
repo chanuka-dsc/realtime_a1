@@ -10,8 +10,16 @@ procedure comm2 is
         -- protected object declaration
 	protected  buffer is
             -- add entries of protected object here 
+      entry Put (N : in Integer);
+      entry Get (N : out Integer);
+      entry Stop;
 	private
             -- add local declarations
+      Data : BufferArray;
+      Head : Integer := 1;
+      Tail : Integer := 1;
+      Count : Integer := 0;
+      Stopping : Boolean := False;
 	end buffer;
 
 	task producer is
