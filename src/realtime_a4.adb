@@ -2,7 +2,7 @@ with Ada.Text_IO;         use Ada.Text_IO;
 with Ada.Numerics.Discrete_Random;
 with Ada.Calendar;        use Ada.Calendar;
 
-procedure FIFO_Protected_Main is
+procedure Realtime_A4 is
 
    --Named array type for FIFO
    Max : constant := 10;
@@ -133,4 +133,4 @@ procedure FIFO_Protected_Main is
 
 begin
    null;
-end FIFO_Protected_Main;
+end Realtime_A4;
