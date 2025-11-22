@@ -1,10 +1,8 @@
 --Protected types: Ada lab part 4
 
-with Ada.Calendar;
-with Ada.Text_IO;
+with Ada.Calendar; use Ada.Calendar;
+with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Numerics.Discrete_Random;
-use Ada.Calendar;
-use Ada.Text_IO;
 
 procedure comm2 is
     Message: constant String := "Protected Object";
