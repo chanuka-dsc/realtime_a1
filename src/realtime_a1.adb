@@ -1,9 +1,8 @@
-with cyclic;  -- assuming A.adb contains "procedure A is"
-
+with comm1; 
 
 procedure Realtime_A1 is
 begin
    -- Call whatever you want to run:
-   cyclic;
--- or B; or C; etc.
+   comm1;
+
 end Realtime_A1;
